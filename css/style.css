@@ -72,3 +72,17 @@
     border: 1px solid black;
     height: 200px;
 }
+
+
+/* footer */
+.container-main-full-footer{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col-100-big-footer{
+    width: 100%;
+    background-color: rgb(24, 42, 1);
+    border: 1px solid black;
+    height: 200px;
+}
