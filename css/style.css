@@ -3,3 +3,72 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* header */
+.container-header{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-50{
+    width: 50%;
+    background-color: blue;
+    border: 1px solid black;
+    height: 50px;
+}
+/* main */
+
+.bg-gray{
+    background-color: gray;
+}
+
+.container-main-full{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.col-33{
+    width: calc(100% / 3 - 20px);
+    background-color: rgb(181, 11, 39);
+    border: 1px solid black;
+    height: 500px;
+    margin: 10px;
+}
+
+.col-40{
+    width: 40%;
+    background-color: pink;
+    border: 1px solid black;
+    height: 200px;
+}
+
+.col-60{
+    width: 60%;
+    background-color: rgb(6, 136, 51);
+    border: 1px solid black;
+    height: 200px;
+}
+
+.col-100{
+    width: 100%;
+    background-color: rgb(136, 6, 95);
+    border: 1px solid black;
+    height: 50px;
+}
+
+.col-100-big{
+    width: 100%;
+    background-color: rgb(80, 136, 6);
+    border: 1px solid black;
+    height: 200px;
+}
