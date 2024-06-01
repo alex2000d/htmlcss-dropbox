@@ -82,6 +82,13 @@ header{
 
 
 
+.col-33-three{
+    width: calc(100% / 3 - 20px);
+    height: 700px;
+    margin: 10px;
+    
+}
+
 .col-33{
     width: calc(100% / 3 - 20px);
     
@@ -90,7 +97,6 @@ header{
     margin: 10px;
     
 }
-
 .text-right{
     text-align: right;
 }
@@ -156,6 +162,27 @@ header{
     margin-bottom: 10px;
 }
 
+.col-100-three{
+    width: 100%;
+    text-align: center;
+  
+    margin-top: 100px;
+    margin-bottom: 10px;
+    
+}
+
+.fs-50{
+    font-size: 50px;
+}
+
+.fs-20{
+    font-size: 25px;
+}
+
+.fs-40{
+ font-size: 40px;
+}
+
 .text-center{
     text-align: center;
     
@@ -195,7 +222,9 @@ float: left;
     height: 200px;
 }
 
-
+.pd-10{
+    padding: 10px;
+}
 
 
 .text-big{
