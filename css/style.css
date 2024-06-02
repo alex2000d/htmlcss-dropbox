@@ -353,25 +353,11 @@ margin-top: 40px;
     margin-left: 50px;
 }
 
-
-/* footer */
-.container-main-full-footer{
-    width: 100%;
-    margin: 0 auto;
-}
-
-.col-100-big-footer{
-    width: 100%;
-    background-color: rgb(24, 42, 1);
-    border: 1px solid black;
-    height: 200px;
-}
-
 .square{
     background-color: blue;
-    width: calc(100% / 2 - 2px);
-    height: 180px;
-    border: 1px solid black;
+    width: 265px;
+    height: 220px;
+    
     display: inline-block;
     
 }
@@ -380,7 +366,140 @@ margin-top: 40px;
     width: calc(100% / 3);
     background-color: rgb(181, 11, 39);
     border: 1px solid black;
-    height: 365px;
+    height: 445px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.content-main-1 img{
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    
+    
+}
+
+.bg-red{
+    background-color: rgb(179, 1, 1);
+}
+
+.bg-light-blu-two{
+    background-color:#4D90FF
+}
+
+.bg-yellow{
+    background-color: rgb(225, 225, 32);
+}
+
+.bg-green{
+    background-color: rgb(82, 168, 99);
+}
+
+.bg-dark-red{
+    background-color: rgb(153, 12, 35);
+}
+
+.bg-blu-one{
+    background-color: rgb(0, 76, 255);
+}
+
+.bg-light-red{
+    background-color: rgb(254, 30, 30);
+}
+
+.bg-light-gray{
+    background-color:lightgray ;
+}
+
+.bg-purple{
+    color: rgb(76, 1, 43);
+}
+
+.content-main-2 img{
+width: 200px;
+height: 100px;
+}
+
+.container-main-full{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col-100-big-four{
+    width: 100%;
+    background-color:#4D90FF;
+   
+    height: 200px;
+}
+
+.div-sx-two{
+    margin-top: 10px;
+    padding: 0;
+    width: 360px;
+    font-size: 30px;
+    margin-left: 400px;
+    float: left;
+    margin-top: 50px;
+    
+    }
+    
+    
+    .div-dx-two{
+        margin-top: 10px;
+        padding: 0;
+        width: 415px;
+        font-size: 20px;
+       margin-top: 50px;
+        float: right;
+        margin-right: 400px;
+    }
+
+    .text-white{
+        background-color: white;
+        color: black;
+    }
+
+    .container-main-two{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    
+    .col-100-big-two{
+        width: 100%;
+        height: 400px;
+    }
+
+    .ml-300{
+        margin-left: 300px;
+    }
+
+    .width-two{
+        width: 850px;
+    }
+
+
+/* footer */
+.container-main-full-footer{
+    width: 100%;
+    margin: 0 auto;
+    height: 400px;
+}
+
+.col-20-four{
+    width: calc(100% / 5);
+    background-color: black;
+    height: 400px;
+}
+
+.ml-100{
+    margin-left: 100px;
+}
+
+.width-three{
+    width: 100px;
+    margin-left: 100px;
+}
+
+.bg-white{
+    color: white;
 }
